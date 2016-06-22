@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top"
+    android:stretchColumns="0,3"
+    android:background="#FBFBFB">
+    <TableRow>
+        <TextView android:minWidth="10dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewLogo"
+            android:src="@drawable/logo1" />
+        <TextView android:minWidth="10dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:minWidth="10dp"/>
+        <TextView
+            android:text="ログインID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"/>
+        <TextView android:minWidth="10dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:minWidth="10dp"/>
+        <EditText
+            android:id="@+id/loginId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:minWidth="220dp"/>
+        <TextView android:minWidth="10dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:minWidth="10dp"/>
+        <TextView
+            android:text="パスワード"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"/>
+        <TextView android:minWidth="10dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:minWidth="10dp"/>
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:minWidth="220dp"
+            android:inputType="textPassword"/>
+        <TextView android:minWidth="10dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:minWidth="10dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox"
+            android:text="次回から自動ログインする"
+            android:textSize="12dp"
+            />
+        <TextView android:minWidth="10dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:minWidth="10dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox2"
+            android:text="アプリの利用規約に同意する"
+            android:textSize="12dp"
+            />
+        <TextView android:minWidth="10dp"/>
+            />
+        <TextView android:minWidth="20dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:minWidth="10dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ログイン"
+            android:id="@+id/button"
+            android:textSize="18dp"
+            />
+        <TextView android:minWidth="10dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:minWidth="10dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="初回利用の方はこちら"
+            android:id="@+id/button2"
+            android:textSize="18dp"
+            />
+        <TextView android:minWidth="10dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:minWidth="10dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="パスワードお忘れの方はこちら"
+            android:id="@+id/button3"
+            android:textSize="18dp"
+            />
+        <TextView android:minWidth="10dp"/>
+    </TableRow>
+
+</TableLayout>
